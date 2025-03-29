@@ -12225,6 +12225,32 @@ a:hover {
   color: #272727;
 }
 
+.custom-btn {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.custom-btn:after {
+  background: #fff;
+}
+
+.custom-btn:hover {
+  color: #00cdac;
+  text-decoration: none;
+}
+
+.custom-btn:hover:after {
+  width: 100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #0262b0;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+  background-color: #01797e;
+}
+
 .footer {
   color: #fff;
   background-color: #333;

@@ -19,6 +19,14 @@
 
     <!-- Todo: remove the below script once you finish your portfolio -->
     <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery (necessário para o Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper.js (necessário para o Bootstrap) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
@@ -43,7 +51,7 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
+        <h2 class="section-title load-hidden">About Me</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
@@ -54,21 +62,75 @@
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
                 A passionate and dedicated Full Stack Developer student with academic, professional, and hands-on experience in software development and data analysis.
-                My expertise spans multiple programming languages, including Python, Java, JavaScript, Assembly, C, HTML, and CSS. I have worked with frameworks such as Django, Node.js, React, Bootstrap, Spring, and I am proficient in database management. I have also knowledge in API development, object programming (OOP) and DevOps practices.
+                My expertise spans multiple programming languages, including Python, Java, JavaScript, Assembly, C, HTML, and CSS.
+                I have worked with frameworks such as Django, Node.js, React, Bootstrap, Spring, and I am proficient in database management. I have also knowledge in API development, object programming (OOP) and DevOps practices.
               </p>
               <p class="about-wrapper__info-text">
                 Currently, I am deepening my knowledge in security, testing, software quality, and artificial intelligence.
               </p>
-              <span class="d-flex mt-3">
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="/assets/Curriculo.pdf">
-                  View Resume
-                </a>
-              </span>
+              <!-- Botões ao lado -->
+              <div>
+                <span class="d-flex mt-3">
+                  <!-- Botão do currículo -->
+                  <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="/assets/Curriculo.pdf">
+                    View Resume
+                  </a>
+                  <!-- Botão para abrir o modal de habilidades -->
+                  <a rel="noreferrer" targer="_blank" class="cta-btn cta-btn--resume custom-btn ml-4" data-toggle="modal" data-target="#skillsModal" href="#">
+                    View Skills & Technologies
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Modal para exibir as habilidades e tecnologias -->
+    <div class="modal fade" id="skillsModal" tabindex="-1" role="dialog" aria-labelledby="skillsModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="skillsModalLabel">My Skills & Technologies</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5>Programming Languages:</h5>
+            <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>Assembly</li>
+              <li>C</li>
+              <li>HTML, CSS</li>
+            </ul>
+
+            <h5>Frameworks & Technologies:</h5>
+            <ul>
+              <li>Django</li>
+              <li>Node.js</li>
+              <li>React</li>
+              <li>Bootstrap</li>
+              <li>Spring</li>
+              <li>API Development</li>
+            </ul>
+
+            <h5>Additional Skills:</h5>
+            <ul>
+              <li>Object-Oriented Programming (OOP)</li>
+              <li>DevOps Practices</li>
+              <li>Security & Testing</li>
+              <li>Artificial Intelligence</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- /END About Section -->
 
     <!-- **** Projects Section **** -->
@@ -84,14 +146,16 @@
                 <h3 class="project-wrapper__text-title">Project 1</h3>
                 <div>
                   <p class="mb-4">
-                    Colocar projeto aqui
+                    forUnB is a forum platform inspired by the Stack Overflow concept, created to foster collaboration and knowledge sharing among students at the University of Brasília. Our goal is to build a united community where students can share questions, find answers, and collaborate across various subjects.
+
+The platform was developed entirely in Django, with styling implemented using Bootstrap. We leveraged Render for hosting, and PostgreSQL was used as the database. Additionally, we implemented web scraping using BeautifulSoup to gather academic materials from the University of Brasília, enhancing the resources available to users.
                   </p>
                 </div>
-                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://two024-1-forunb.onrender.com/">
                   See Live
                 </a>
-                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="https://github.com/unb-mds/2024-1-forUnB">
+                  Code
                 </a>
               </div>
             </div>
@@ -99,7 +163,38 @@
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="#!" target="_blank">
                   <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
-                    <img alt="Project Image" class="img-fluid" src="/project.f500882b.jpg">
+                    <!-- Carrossel de Imagens -->
+                    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <!-- Indicadores -->
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+            
+                      <!-- Imagens -->
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="/home_forum.7bec2833.jpg" class="d-block w-100 img-fluid" alt="Project Image 1">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/foruns.99d0bb06.jpg" class="d-block w-100 img-fluid" alt="Project Image 2">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/pergunta_forum.a96e0733.jpg" class="d-block w-100 img-fluid" alt="Project Image 3">
+                        </div>
+                      </div>
+            
+                      <!-- Controles -->
+                      <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
                   </div>
                 </a>
               </div>
