@@ -1,0 +1,10 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #0262b0; 
+//   border-radius: 50%; 
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: darken(#02aab0, 10%); 
+}
