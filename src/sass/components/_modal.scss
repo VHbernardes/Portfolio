@@ -1,0 +1,64 @@
+// 
+
+.custom-modal-dialog {
+    width: 900px !important;
+}
+
+.custom-modal-content {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.custom-modal-header {
+  background-color: #343a40;
+  color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  h5 {
+    font-size: 1.8rem; // Aumenta o tamanho do título
+    font-weight: bold;
+  }
+}
+
+.custom-close-button {
+  color: #ffffff;
+  font-size: 1.5rem; // Aumenta o tamanho do botão de fechar
+}
+
+.custom-modal-body {
+  padding: 20px;
+
+  h5 {
+    font-size: 1.5rem; // Aumenta os títulos dentro do modal
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  ul {
+    padding-left: 20px;
+
+    li {
+      font-size: 1.3rem; // Aumenta o tamanho da fonte dos itens da lista
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.custom-modal-footer {
+  background-color: #f8f9fa;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.custom-close-btn {
+  background-color: #343a40;
+  color: #ffffff;
+  border: none;
+  font-size: 1.2rem; // Aumenta o tamanho da fonte do botão de fechar
+
+  &:hover {
+    background-color: #495057;
+  }
+}
