@@ -12121,6 +12121,69 @@ a:hover {
   transform: translateX(2px);
 }
 
+.custom-modal-dialog {
+  width: 900px !important;
+}
+
+.custom-modal-content {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.custom-modal-header {
+  color: #fff;
+  background-color: #343a40;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.custom-modal-header h5, .custom-modal-header .h5 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.custom-close-button {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.custom-modal-body {
+  padding: 20px;
+}
+
+.custom-modal-body h5, .custom-modal-body .h5 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.custom-modal-body ul {
+  padding-left: 20px;
+}
+
+.custom-modal-body ul li {
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+}
+
+.custom-modal-footer {
+  background-color: #f8f9fa;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.custom-close-btn {
+  color: #fff;
+  background-color: #343a40;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.custom-close-btn:hover {
+  background-color: #495057;
+}
+
 .cta-btn {
   z-index: 1;
   padding: .8rem 1.6rem;
