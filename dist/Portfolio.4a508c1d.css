@@ -12080,6 +12080,7 @@ a:hover {
 
 .section-title {
   text-transform: uppercase;
+  text-align: center;
   margin: 0 0 4.5rem;
   font-size: 4rem;
   font-weight: bold;
@@ -12265,6 +12266,7 @@ a:hover {
 
 .footer__text {
   color: gray;
+  text-align: center;
   font-size: 1.3rem;
 }
 
@@ -12441,6 +12443,7 @@ section {
 
 #contact .contact-wrapper {
   backface-visibility: hidden;
+  text-align: center;
   margin-top: 3.2rem;
   padding: 0 2rem;
 }

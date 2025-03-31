@@ -1,0 +1,180 @@
+{
+  "languages": {
+    "pt": "Português",
+    "en": "English"
+  },
+  "hero_section": {
+    "title": {
+      "pt": "Oi, meu nome é Victor Hugo Bernardes\nSou estudante de Engenharia de Software & futuro Desenvolvedor.",
+      "en": "Hi, my name is Victor Hugo Bernardes\nI'm a Software Engineer student & future Developer."
+    },
+    "cta_text": {
+      "pt": "Saiba mais",
+      "en": "Know more"
+    }
+  },
+  "about_section": {
+    "title": {
+      "pt": "Sobre Mim",
+      "en": "About Me"
+    },
+    "description": {
+      "pt": "Sou um estudante apaixonado e dedicado de Full Stack Developer, com experiência acadêmica, profissional e prática em desenvolvimento de software e análise de dados.\nMinha experiência abrange várias linguagens de programação, incluindo Python, Java, JavaScript, Assembly, C, HTML e CSS.\nTrabalhei com frameworks como Django, Node.js, React, Bootstrap, Spring e sou proficiente em gerenciamento de bancos de dados. Também tenho conhecimento em desenvolvimento de APIs, programação orientada a objetos (POO) e práticas de DevOps.",
+      "en": "A passionate and dedicated Full Stack Developer student with academic, professional, and hands-on experience in software development and data analysis.\nMy expertise spans multiple programming languages, including Python, Java, JavaScript, Assembly, C, HTML, and CSS.\nI have worked with frameworks such as Django, Node.js, React, Bootstrap, Spring, and I am proficient in database management. I also have knowledge in API development, object-oriented programming (OOP), and DevOps practices."
+    },
+    "additional_info": {
+      "pt": "Atualmente, estou aprofundando meus conhecimentos em segurança, testes, qualidade de software e inteligência artificial.",
+      "en": "Currently, I am deepening my knowledge in security, testing, software quality, and artificial intelligence."
+    },
+    "buttons": {
+      "view_resume": {
+        "pt": "Ver Currículo",
+        "en": "View Resume"
+      },
+      "view_skills": {
+        "pt": "Ver Habilidades & Tecnologias",
+        "en": "View Skills & Technologies"
+      }
+    }
+  },
+  "skills_modal": {
+    "title": {
+      "pt": "Minhas Habilidades & Tecnologias",
+      "en": "My Skills & Technologies"
+    },
+    "programming_languages_title": {
+      "pt": "Linguagens de Programação:",
+      "en": "Programming Languages:"
+    },
+    "programming_languages": {
+      "pt": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "Assembly",
+        "C",
+        "HTML, CSS"
+      ],
+      "en": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "Assembly",
+        "C",
+        "HTML, CSS"
+      ]
+    },
+    "frameworks_technologies_title": {
+      "pt": "Frameworks & Tecnologias:",
+      "en": "Frameworks & Technologies:"
+    },
+    "frameworks_technologies": {
+      "pt": [
+        "Django",
+        "Node.js",
+        "React",
+        "Bootstrap",
+        "Spring",
+        "Desenvolvimento de API"
+      ],
+      "en": [
+        "Django",
+        "Node.js",
+        "React",
+        "Bootstrap",
+        "Spring",
+        "API Development"
+      ]
+    },
+    "additional_skills_title": {
+      "pt": "Habilidades Adicionais:",
+      "en": "Additional Skills:"
+    },
+    "additional_skills": {
+      "pt": [
+        "Programação Orientada a Objetos (POO)",
+        "Práticas de DevOps",
+        "Segurança & Testes",
+        "Inteligência Artificial"
+      ],
+      "en": [
+        "Object-Oriented Programming (OOP)",
+        "DevOps Practices",
+        "Security & Testing",
+        "Artificial Intelligence"
+      ]
+    },
+    "close_button": {
+      "pt": "Fechar",
+      "en": "Close"
+    }
+  },
+  "projects_section": {
+    "title": {
+      "pt": "Projetos",
+      "en": "Projects"
+    },
+    "projects": [
+      {
+        "title": {
+          "pt": "Projeto 1",
+          "en": "Project 1"
+        },
+        "description": {
+          "pt": "forUnB é uma plataforma de fórum inspirada no conceito do Stack Overflow, criada para fomentar a colaboração e o compartilhamento de conhecimento entre estudantes da Universidade de Brasília. Nosso objetivo é construir uma comunidade unida onde os estudantes podem compartilhar dúvidas, encontrar respostas e colaborar sobre diversos assuntos. A plataforma foi desenvolvida inteiramente em Django, com o estilo implementado usando o Bootstrap. Utilizamos o Render para hospedagem e o PostgreSQL como banco de dados. Além disso, implementamos web scraping com BeautifulSoup para coletar materiais acadêmicos da Universidade de Brasília, aprimorando os recursos disponíveis para os usuários.",
+          "en": "forUnB is a forum platform inspired by the Stack Overflow concept, created to foster collaboration and knowledge sharing among students at the University of Brasília. Our goal is to build a united community where students can share questions, find answers, and collaborate across various subjects. The platform was developed entirely in Django, with styling implemented using Bootstrap. We leveraged Render for hosting, and PostgreSQL was used as the database. Additionally, we implemented web scraping using BeautifulSoup to gather academic materials from the University of Brasília, enhancing the resources available to users."
+        },
+        "see_live_button": {
+          "pt": "Ver ao Vivo",
+          "en": "See Live"
+        },
+        "code_button": {
+          "pt": "Código",
+          "en": "Code"
+        }
+      },
+      {
+        "title": {
+          "pt": "Projeto 2",
+          "en": "Project 2"
+        },
+        "description": {
+          "pt": "Colocar projeto aqui",
+          "en": "Place project here"
+        },
+        "see_live_button": {
+          "pt": "Ver ao Vivo",
+          "en": "See Live"
+        },
+        "code_button": {
+          "pt": "Código Fonte",
+          "en": "Source Code"
+        }
+      }
+    ]
+  },
+  "contact_section": {
+    "title": {
+      "pt": "Contato",
+      "en": "Contact"
+    },
+    "find_me_text": {
+      "pt": "Me encontre em",
+      "en": "Find me on"
+    },
+    "social_links": {
+      "email": {
+        "pt": "E-mail",
+        "en": "Email"
+      },
+      "linkedin": {
+        "pt": "LinkedIn",
+        "en": "LinkedIn"
+      },
+      "github": {
+        "pt": "GitHub",
+        "en": "GitHub"
+      }
+    }
+  }
+}
